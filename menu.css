@@ -1,0 +1,17 @@
+.menu{
+
+    display: flex;
+    gap: 72px;
+    font-size: 1.25rem;
+}
+.menu li{
+
+    border-bottom: 4px  solid transparent; ;
+    transition: border-color 5.s;
+}
+.menu:hover{
+
+    border-color: var(--primary-color);
+
+
+}
