@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ddaca44862.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ddaca44862.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./menu.css">
     <link rel="stylesheet" href="./logo.css">
     <link rel="stylesheet" href="./home.css">
     <link rel="stylesheet" href="./sobre-mim.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/ddaca44862.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/ddaca44862.js" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="./section-title.css">
+    <link rel="stylesheet" href="./projetos.css">
+    <link rel="stylesheet" href="./contatos.css">
+    <link rel="stylesheet" href="./back.css">
 <title>Portifolio - Gustavo Souza</title>
 </head>
 <body>
@@ -40,6 +44,9 @@
         </nav>
     </header>
     <main>
+        <a href="#" class="back">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
         <section class="home">
            <img src="./img/Ellipse 1 (1).png" alt="" class="home__photo"> 
             <div>
@@ -59,8 +66,8 @@
                     Quem sou?
                 </h3>
                 <p class="description__text">
-                    Sou iniciante na área de criação e manutenção de sites, tenho conhecimento de prototipação de designer sempre prensando na experiência do ususário.
-                    Sou apaixonado pelo mundo digital e principalmente desenvolvimento, sempre procurando inspiração nos meus colegas de trabalho e no mundo que me rodeia.
+                    Sou da area de criação e manutenção de site,tenho o conhecimento em prototipação e designer sempre pensando na experiencia do usuario.
+                    Sou apaxionado pelo mundo digital e desenvolvimento, sempre procurando inspiração nos meus colegas de trabalho e no mundo que me rodeia.
                 </p>
             </div>
 
@@ -98,5 +105,84 @@
         </section>
         <section class="projetos" id="projetos">
             <h2 class="section-title">Projetos</h2>
+            <div class="card_conteiner">
+                <a href="#" class="card">
+                    <img src="./img/Rectangle 1.png" alt="Imagem_pikachu">
+                </a>
+           
+                <a href="#" target="_blank" class="card">
+                    <img src="./img/Rectangle 2.png" alt="meu_site">
+                </a>
+   
+            </div>
+        </section>
+            <section class="contato" id="contato">
+            <h2 class="section-title">Contatos</h2>
+            <ul class="contato-conteiner">
+                <li>
+                    <h3 class="contato-title">Contato</h3>
+                </li>
+                <div class="contato-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>(11)4774-4700</span>
+                </div>
+                <div class="contato-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>GustavoTenorio010@gmail.com</span>
+                </div>
+                <div class="contato-item">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>(11)95861-2352</span>
+                </div>
+            </ul>
+            
+            <ul class="social-conteiner">
+
+            <li>
+                <a href="#" class="social-item">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="social-item">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="social-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+
+
+            </ul>
+
+            <ul class="link-conteiner">
+                <li>
+                    <h3 class="link-title">link</h3>
+
+                </li>
+                <li>
+                    <a href="#">inicio</a>
+                </li>
+                <li>
+                    <a href="#">sobre mim</a>
+                </li>
+                <li>
+                    <a href="#">projetos</a>
+                </li>
+                <li>
+                    <a href="#">contato</a>
+                </li>
+        </section>
+
+        <footer>
+            Todos os direitos reservados|Gustavo Souza
+        </footer>
+
+            
 </body>
 </html>
+
+/*mobai (max-width:960px)*/
+/*tablet (max-width:640px)*/

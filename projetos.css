@@ -1,0 +1,43 @@
+.projetos{
+
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+
+
+}
+.card_conteiner{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 48px;
+
+}
+.card{
+
+    position: relative;
+    overflow: hidden;
+
+}
+.card::before{
+
+    content: "clique aqui para ver o projeto";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0005;
+    display: grid;
+    place-content: center;
+    font-weight: 700;
+    transform: translateY(100%);
+    transition: transform 0.8s;
+}
+.card:hover::before{
+
+    transform: translateY(0%);
+
+}

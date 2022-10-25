@@ -1,0 +1,11 @@
+.section-title {
+    grid-area: title;
+    font-size: clamp(2rem, 18vw, 14rem);
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(rgb(129, 129, 129), #000);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
